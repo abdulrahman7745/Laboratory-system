@@ -1,0 +1,39 @@
+name: medical_lab
+description: Medical Laboratory Management System
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  provider: ^6.1.1
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  intl: ^0.18.1
+  http: ^1.2.0
+  shared_preferences: ^2.2.2
+  pdf: ^3.10.7
+  printing: ^5.11.1
+  excel: ^4.0.2
+  path_provider: ^2.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.3
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
